@@ -1,5 +1,5 @@
 node{}
-pipeline {
+node {
     def DOCKERHUB_REPO = "sujo/order-demo-api"
     def DOCKER_SERVICE_ID = "HelloWorldOrder-service"
     def DOCKER_IMAGE_VERSION = ""
